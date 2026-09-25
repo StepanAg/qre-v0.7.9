@@ -1,0 +1,12 @@
+{
+  "_comment": "Strategy v1 - deterministic setup rules. Mirrors the Phase 7 test rule so that Strategy + Risk(fixed_quote) reproduces Phase 7 exactly; NOT optimised, NOT a recommendation.",
+  "schema": 1,
+  "strategy_id": "setup_rules_v1",
+  "setup_types": ["breakout", "pullback", "sweep_reversal", "range_rejection"],
+  "entry_on": "confirmed",
+  "regime_fit_allowed": ["allowed", "unknown"],
+  "reject_conflicting_setups": true,
+  "stop_buffer_atr": 0.25,
+  "take_profit_r": 2.0,
+  "max_hold_bars": 20
+}

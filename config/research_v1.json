@@ -1,0 +1,9 @@
+{
+  "_comment": "Research v1: outcome analysis and chronological splits. Not trading parameters.",
+  "schema": 1,
+  "outcome_horizons": [5, 10, 20, 40],
+  "outcome_anchor": "confirmed",
+  "outcome_thresholds_atr": [1.0, 2.0],
+  "split_fractions": [0.6, 0.2, 0.2],
+  "embargo_bars": 10
+}

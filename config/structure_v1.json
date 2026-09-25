@@ -1,0 +1,16 @@
+{
+  "_comment": "Market Structure & Liquidity v1. INITIAL RESEARCH PARAMETERS, not optimised. Semantics: docs/V070_MARKET_STRUCTURE.md.",
+  "schema": 1,
+  "swing_left": 2,
+  "swing_right": 2,
+  "break_confirmation": "close",
+  "min_bars": 100,
+  "window_bars": 500,
+  "atr_feature": "atr_14",
+  "eq_tolerance_atr": 0.1,
+  "eq_max_separation_bars": 100,
+  "level_expiry_bars": 300,
+  "snapshot_max_swings": 10,
+  "recent_events": 20,
+  "recent_sweep_bars": 96
+}

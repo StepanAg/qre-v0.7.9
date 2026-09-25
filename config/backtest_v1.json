@@ -1,0 +1,20 @@
+{
+  "_comment": "HYPOTHETICAL TEST RULE for the backtest framework - not a strategy, not optimised, no claim of profitability. Costs are explicit ASSUMPTIONS (Bybit linear public fee tiers at the time of writing) and must be reviewed.",
+  "schema": 1,
+  "rule_name": "confirmed_setup_fixed_r",
+  "setup_types": ["breakout", "pullback", "sweep_reversal", "range_rejection"],
+  "entry_on": "confirmed",
+  "regime_fit_allowed": ["allowed", "unknown"],
+  "stop_buffer_atr": 0.25,
+  "take_profit_r": 2.0,
+  "max_hold_bars": 20,
+  "risk_per_trade_quote": 100,
+  "initial_equity_quote": 10000,
+  "costs": {
+    "taker_fee_bps": 5.5,
+    "maker_fee_bps": 2.0,
+    "slippage_bps": 2.0,
+    "funding_mode": "data_or_assumed",
+    "assumed_funding_rate_8h": 0.0001
+  }
+}

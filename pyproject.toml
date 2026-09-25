@@ -1,0 +1,27 @@
+[project]
+name = "qre"
+version = "0.7.0"
+description = "Quantitative Research & Execution Engine for crypto / Bybit"
+requires-python = ">=3.11"
+dependencies = []   # Phase 0 is stdlib-only
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5", "mypy>=1.10"]
+
+[project.scripts]
+qre = "app.cli.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict_optional = true

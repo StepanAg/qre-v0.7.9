@@ -1,0 +1,14 @@
+{
+  "_comment": "Regime Engine v1 thresholds. INITIAL RESEARCH PARAMETERS - not optimised, not claimed profitable. All distances are in ATR units (dimensionless) so one set works across symbols and timeframes. Rationale per key: docs/V070_REGIME_ENGINE.md.",
+  "schema": 1,
+  "structure_min_atr": 1.0,
+  "slope_min_atr": 0.5,
+  "displacement_min_atr": 0.5,
+  "return_min_atr": 1.0,
+  "strong_slope_atr": 1.5,
+  "vol_ratio_high": 1.5,
+  "vol_ratio_low": 0.67,
+  "timeframes": ["15m", "1h", "4h"],
+  "btc_symbol": "BTCUSDT",
+  "btc_timeframe": "1h"
+}

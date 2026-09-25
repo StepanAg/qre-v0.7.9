@@ -1,0 +1,12 @@
+{
+  "_comment": "Phase 9 Strategy + Risk backtest: execution-model parameters only (fills, costs as in Phase 7). Costs are ASSUMPTIONS to review.",
+  "schema": 1,
+  "initial_equity_quote": 10000,
+  "costs": {
+    "taker_fee_bps": 5.5,
+    "maker_fee_bps": 2.0,
+    "slippage_bps": 2.0,
+    "funding_mode": "data_or_assumed",
+    "assumed_funding_rate_8h": 0.0001
+  }
+}

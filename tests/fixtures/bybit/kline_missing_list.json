@@ -1,0 +1,10 @@
+{
+ "retCode": 0,
+ "retMsg": "OK",
+ "result": {
+  "symbol": "BTCUSDT",
+  "category": "linear"
+ },
+ "retExtInfo": {},
+ "time": 1767234600000
+}

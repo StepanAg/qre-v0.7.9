@@ -1,0 +1,22 @@
+{
+  "_comment": "Setup Detection v1. INITIAL RESEARCH PARAMETERS - not optimised, no claim of profitability. A setup is NOT a trading signal. Semantics: docs/V070_PHASE6_SETUP_DETECTION.md.",
+  "schema": 1,
+  "enabled_types": ["breakout", "pullback", "sweep_reversal", "range_rejection"],
+  "timeframes": ["15m", "1h", "4h"],
+  "allowed_regimes": {
+    "breakout": ["trending_up", "trending_down", "transition"],
+    "pullback": ["trending_up", "trending_down"],
+    "sweep_reversal": ["trending_up", "trending_down", "ranging", "transition", "high_volatility"],
+    "range_rejection": ["ranging"]
+  },
+  "atr_feature": "atr_14",
+  "ttl_bars": 12,
+  "recent_closed_bars": 12,
+  "breakout_hold_bars": 2,
+  "pullback_zone_atr": 0.5,
+  "sweep_confirmation": "close_beyond_sweep_bar",
+  "range_min_width_atr": 2.0,
+  "range_max_width_atr": 12.0,
+  "range_touch_atr": 0.3,
+  "rejection_close_fraction": 0.5
+}

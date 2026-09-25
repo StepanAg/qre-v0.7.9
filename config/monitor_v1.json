@@ -1,0 +1,15 @@
+{
+  "_comment": "Market Monitor v1 runtime parameters. Operational settings, not research thresholds. HTTP-level retry/pacing stays in the existing RequestExecutor (HTTP_* settings); the values below govern the cycle loop.",
+  "schema": 1,
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "timeframes": ["15m", "1h", "4h"],
+  "poll_interval_s": 30,
+  "bar_close_grace_s": 10,
+  "stale_after_s": 300,
+  "heartbeat_interval_s": 60,
+  "unit_max_attempts": 5,
+  "unit_backoff_base_s": 5,
+  "unit_backoff_max_s": 120,
+  "api_down_after_failures": 3,
+  "max_runtime_minutes": null
+}
